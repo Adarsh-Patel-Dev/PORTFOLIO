@@ -7,6 +7,10 @@
     --light-green: #ECFDF5;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     margin: auto;
@@ -87,20 +91,20 @@ hr {
 
 }
 
-.secondary-link:hover {
+/* .secondary-link:hover {
 
     transition: 1s;
 
     width: auto;
-    height: 60px;
+    height: 60px;er
     margin: 15px;
 
     background-color: #3B82F6;
     color: white;
 
-}
+} */
 
-.primary-link:hover {
+.primary-link:hover,.secondary-link:hover {
 
     transition: 1s;
     width: auto;
@@ -142,11 +146,11 @@ hr {
 
 
 .navigation .nav-pills {
-
+    
     padding: 1rem 5rem;
     text-align: right;
-    padding-right: 0.5px;
     padding-bottom: 2px;
+    padding-right: 0.5px;
    
 
 }
