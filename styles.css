@@ -69,6 +69,17 @@ hr {
 
 }
 
+.primary-link:hover,.secondary-link:hover {
+
+    transition: 1s;
+    /* width: auto;
+    height: 60px; */
+    margin-left: 1.5rem;
+    background-color: #3B82F6;
+    color: white;
+
+}
+
 .navigation a.link:hover{
    
     /* display: block; */
@@ -94,29 +105,8 @@ hr {
 
 }
 
-/* .secondary-link:hover {
 
-    transition: 1s;
 
-    width: auto;
-    height: 60px;er
-    margin: 15px;
-
-    background-color: #3B82F6;
-    color: white;
-
-} */
-
-.primary-link:hover,.secondary-link:hover {
-
-    transition: 1s;
-    width: auto;
-    height: 60px;
-    margin: 15px;
-    background-color: #3B82F6;
-    color: white;
-
-}
 
 
 
@@ -211,14 +201,14 @@ hr {
 
 .section {
     padding: 1rem;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .section:hover{
     transition: 1.5s;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .section h1 {
@@ -237,7 +227,7 @@ hr {
 }
 
 
-.footer {
+/* .footer {
     background-color: var(--primary-color);
     color: black;
     font-weight: bolder;
@@ -262,7 +252,72 @@ hr {
 .footer-img {
     width: 40px;
     height: 40px;
+} */
+
+/* navigation*/
+
+footer{
+    background-color: #34D399;
+    margin: auto;
+    
 }
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    transition: 1s;
+  }
+
+  .fa-github:hover{
+      color: #624a85;
+     margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+}
+
+  .fa-linkedin:hover{
+      color: #0e76a8 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-twitter:hover{
+      color:#1DA1F2;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-instagram:hover{
+      color:#fb3958 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+  
+  footer h3{
+      
+      padding: 3rem;
+      margin: auto;
+      text-align: center;
+      color: white;
+      letter-spacing: 0.5rem;
+  }
+
+  .icon{
+      margin-left: 2rem;
+      padding: auto;
+      text-align: center;
+      font-size: x-large;
+  }
+
+  /*end of navigation*/
 
 .project-img {
     max-width: 80%;
@@ -300,17 +355,17 @@ hr {
 
 }
 
- h3{
+ /* h3{
     position: relative;
     top: 4rem;
 
     left: 1rem;
     right: inherit;
     font-size:small;
-    /* color: white; */
+   
     letter-spacing: 0.5rem;
     word-spacing: 1rem;
-}
+} */
 
 em{
     color:white;
